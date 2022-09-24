@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>My Contact Details</h3>
+    <p>Email id: mrunmayee2906@gmail.com</p>
+    <p>Phone number: +91-9158886714</p>
+    <hr>
+    <!-- form element -->
+    <!-- form to get info about people who want to contact me -->
+    <!-- action attribute: where to go when the submit button is pressed -->
+    <!-- mailto: opens the default mail app, and creates a blank mail to send to the email id -->
+    <form action="mailto:mrunmayee2906@gmail.com" method="post" enctype="text/plains">
+        <!-- label element -->
+        <!-- the information to be filled -->
+        <label>Your name:</label>
+        <!-- input element -->
+        <!-- type="text" creates a textbox as a form of input -->
+        <!-- users will type their info in this textbox -->
+        <input type="text" name="yourName">
+        <br>
+        <label>Your email:</label>
+        <input type="email" name="yourEmail"><br>
+        <label>Your message:</label><br>
+        <!-- textarea element -->
+        <!-- we can customise by specifying the rows and columns -->
+        <!-- rows = how tall, cols = how wide -->
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+        <!-- type="submit" will create a button named Submit -->
+        <input type="submit">
+    </form>
+</body>
+</html>
